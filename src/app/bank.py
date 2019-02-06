@@ -8,8 +8,8 @@ class Bank:
         self.accounts.append(account)
         return account
 
-    def add_transaction(self, *,sender, recipient, subject, amount):
-        assert amount >0, 'Amount has to be greater than 0'
+    def add_transaction(self, *, sender, recipient, subject, amount):
+        assert amount > 0, 'Amount has to be greater than 0'
         transaction = {
             'sender': sender,
             'recipient': recipient,
@@ -18,12 +18,3 @@ class Bank:
         }
         self.transactions.append(transaction)
         return transaction
-
-
-
-
-
-
-
-
-
