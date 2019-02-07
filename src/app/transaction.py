@@ -9,10 +9,6 @@ class Transaction:
         self.subject = subject
         self.amount = amount
 
-
     def info(self):
-        #'From 1 to 2: Test transaction - 10.0 €'
+        # From 1 to 2: Test transaction - 10.0 €
         return f'From {self.sender} to {self.recipient}: {self.subject} - {self.amount} €'
-
-
-

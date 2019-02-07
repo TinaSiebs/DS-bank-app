@@ -23,13 +23,3 @@ class Bank:
         assert recipient.number in self.accounts, 'Recipient has no account yet!'
 
         return transaction
-
-
-
-
-
-
-
-
-
-
